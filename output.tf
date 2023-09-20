@@ -32,9 +32,9 @@ output "HANA-DB-PRIVATE-IP-VSI2" {
 }
 
 output "COS_INSTANCE_NAME" {
-  value = "${local.hana_sid}-hana-backup-instance"
+  value = "${local.hana_sid}-hana-backup-instance-1"
 }
 
 output "BUCKET_NAME" {
-  value = "${local.hana_sid}-hana-backup-bucket"
+  value = "${local.hana_sid}-hana-backup-bucket-1"
 }
